@@ -5498,11 +5498,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9fd2a955a19898e409f8ef3e1407a702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visu: {fileID: 1586734308}
+  ballEffectMesh: {fileID: 1586734308}
   boomParticle: {fileID: 2116825361}
   paddleClip: {fileID: 8300000, guid: 5552f78635da9194485ec9d7840dc957, type: 3}
   source: {fileID: 1344098502}
   rotationDir: {x: 0, y: 0, z: 0}
+  player: {fileID: 1725982599}
+  normalRenderers:
+  - {fileID: 574787317}
+  - {fileID: 608318753}
+  - {fileID: 1069220994}
+  - {fileID: 69319639}
+  boostRenderer: {fileID: 1375402084}
   bounceMask:
     serializedVersion: 2
     m_Bits: 512
@@ -5570,13 +5577,6 @@ MonoBehaviour:
       m_Mode: 0
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
-  player: {fileID: 1725982599}
-  normalRenderers:
-  - {fileID: 574787317}
-  - {fileID: 608318753}
-  - {fileID: 1069220994}
-  - {fileID: 69319639}
-  boostRenderer: {fileID: 1375402084}
 --- !u!135 &1344098498
 SphereCollider:
   m_ObjectHideFlags: 0
